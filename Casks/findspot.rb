@@ -1,6 +1,6 @@
 cask "findspot" do
-  version "0.2.0"
-  sha256 "4fb9a700a6e5dfb0299d7d3b31c143174d439901ef873065bc738ee471278447"
+  version "0.3.0"
+  sha256 "52144efddc97eff6c62c327220bd0a93f2e856c3d6dc8f8f610008c94d17c6ab"
 
   url "https://github.com/matjaz/homebrew-tap/releases/download/findspot-v#{version}/Findspot-#{version}.dmg"
   name "Findspot"
