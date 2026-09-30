@@ -18,7 +18,9 @@ Find files and folders in a few keystrokes, from the menu bar or the terminal.
   eval "$(findspot init zsh)"      # bash: init bash · fish: findspot init fish | source · pwsh: init pwsh
   ```
 
-  `fs` picks a path, `fs cd` jumps to it, `fs open` opens it.
+  `fs` picks a path, `fs cd` jumps to it, `fs open` opens it. ⌃T inserts a
+  path below the current directory at the cursor, ⌥C changes into a directory
+  below it (in iTerm2, set a Option key to "Esc+" for ⌥C).
 
 Builds are not notarized yet. If macOS refuses to open the app:
 
