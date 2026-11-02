@@ -12,6 +12,10 @@ Find files and folders in a few keystrokes, from the menu bar or the terminal.
 
 - **App:** open Findspot from Applications; it lives in the menu bar. Press
   ⌥Space (or the shortcut set in Preferences) anywhere to search.
+- **Open in a terminal:** in the search panel, ⇧⌘↩ opens the selected folder
+  (or the folder containing a file) in iTerm or Terminal, and ⇧⌘1–9 does the
+  same for that row. Hold ⇧ to see the shortcuts. macOS keeps ⇧⌘3–5 for
+  screenshots unless they are turned off in System Settings › Keyboard.
 - **Terminal:** add to your shell's startup file
 
   ```sh
