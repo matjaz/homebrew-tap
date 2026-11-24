@@ -2,7 +2,6 @@ class Npssh < Formula
   desc "SSH agent with keys in NordPass and Touch ID for every signature"
   homepage "https://github.com/matjaz/npssh"
   url "https://github.com/matjaz/npssh/releases/download/v0.1.0/npssh-0.1.0-darwin-universal.tar.gz"
-  version "0.1.0"
   sha256 "f23d8c22619d808d02dc6c3536e15e43d50b266540cca13b6352f09554a1d10b"
 
   livecheck do
