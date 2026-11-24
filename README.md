@@ -1,9 +1,10 @@
 # matjaz/tap
 
-Homebrew tap for [Findspot](#findspot).
+Homebrew tap for [Findspot](#findspot) and [npssh](#npssh).
 
 ```sh
 brew install --cask matjaz/tap/findspot
+brew install matjaz/tap/npssh
 ```
 
 ## Findspot
@@ -34,3 +35,19 @@ xattr -dr com.apple.quarantine /Applications/Findspot.app
 
 Update with `brew upgrade --cask findspot`; remove with
 `brew uninstall --cask findspot` (`--zap` also removes preferences).
+
+## npssh
+
+An SSH agent for macOS that keeps your keys in NordPass instead of `~/.ssh`
+and asks for Touch ID on every signature. It needs the NordPass CLI, whose tap
+is not on GitHub:
+
+```sh
+brew tap nordpass/tap https://downloads.npass.app/cli/homebrew-tap.git
+brew install nordpass/tap/np matjaz/tap/npssh
+npssh install      # starts the agent; follow the setup it prints
+```
+
+Usage: [matjaz/npssh](https://github.com/matjaz/npssh). After
+`brew upgrade npssh`, run `npssh install` again so the agent restarts on the
+new version.
